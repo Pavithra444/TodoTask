@@ -1,0 +1,123 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.inputData{
+  border:2px;
+  border-color: green;
+  padding: 2px;
+  margin: 10px;
+  border-style: solid;
+  height:20px;
+  width:300px;
+  border-radius: 5px;
+}
+h2{
+  color: green;
+  text-align: center;
+}
+.AddButton{
+  height:40px;
+  width:150px;
+  background-color: green;
+  color: white;
+  margin: 10px;
+}
+.details{
+  display: flex;
+  justify-content: space-between;
+  font-size:large;
+  font-weight: bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin:10px;
+}
+.Statusoptions{
+  display: flex;
+  height: 30px;
+  width: 150px;
+  background-color: red;
+  color: white;
+  display: inline-block;
+}
+.TodoList{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+ display: inline-block;
+}
+.card1{
+  height:270px;
+  width:350px;
+  background-color: lightgreen;
+  margin:10px;
+  display: flex;
+  flex-direction: column;
+  text-wrap:balance;
+  padding: 15px;
+}
+.EditWindow{
+  height:300px;
+  width:350px;
+  background-color: lightgreen;
+  margin:10px;
+  display: flex;
+  flex-direction: column;
+  text-wrap:balance;
+  padding: 15px;
+}
+#editbtn{
+  height:40px;
+  width:80px;
+  background-color: green;
+  color: white;
+  font-size: small;
+}
+#deletebtn{
+  height:40px;
+  width:80px;
+  background-color: red;
+  color: white;
+  font-size: small;
+}
+.btnPart{
+ align-self: flex-end;
+}
